@@ -1,0 +1,383 @@
+            * {
+			  box-sizing: border-box;
+			}
+			.row:after{
+			  content: "";
+			  display: table;
+			  clear: both;
+			}
+			.column {
+				text-align : center ;
+			    float: left;
+			    width: 33.3%;
+			    padding: 5px;
+				
+			}
+			.footballimg, .basketballimg , .rugbyimg, .f1img {
+				width : 300px;
+				height : 300px;
+				border:5px solid black;
+				border-radius:20%;
+			}
+			
+				
+			.footballbg{
+				-webkit-border-radius: 50px;
+				-moz-border-radius: 50px;
+				border-style: groove;
+				border-radius: 50px;
+				border-color : orangered ;
+				background-image: url("footballbg.jpg");
+				background-repeat: no-repeat;
+				background-position: center center;
+				background-size : 120%;
+				margin : 100px;
+			}
+			.basketballbg{
+				-webkit-border-radius: 50px;
+				-moz-border-radius: 50px;
+				border-radius: 50px;
+				border-style: groove;
+				border-color : orangered ;
+				background-image: url("basketballbg.jpg");
+				background-repeat: no-repeat;
+				background-position: center center;
+				background-size : 100%;
+				margin : 100px;
+				
+			}
+				
+			.rugbybg{
+				-webkit-border-radius: 50px;
+				-moz-border-radius: 50px;
+				border-radius: 50px;
+				border-style: groove;
+				border-color : orangered ;
+				background-image: url("rugbybg.jpg");
+				background-repeat: no-repeat;
+				background-position: center center;
+				background-size : 120%;
+				margin : 100px;
+			}
+			.f1bg{
+				-webkit-border-radius: 50px;
+				-moz-border-radius: 50px;
+				border-radius: 50px;
+				border-style: groove;
+				border-color : orangered ;
+				background-image: url("f1bg.jpg");
+				background-repeat: no-repeat;
+				background-position: center center;
+				background-size : 120%;
+				margin : 100px;
+			}
+				
+			.description{
+				font-size : 20px;
+				font-weight : bold ;
+				text-align : center;
+				color : white ;
+				font-family : arial ;
+				text-shadow: 2px 0 0 black, -2px 0 0 black, 0 2px 0 black, 0 -2px 0 black, 1px 1px black, -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black;
+				border-radius: 80px;
+				border-style: groove;
+				border-color : orangered ;
+				background-image: url("ftt.jpg");
+			}
+			.footballproduct,.basketballproduct,.rugbyproduct{
+				width : 300px;
+				height : 300px;
+				
+			}
+			.subtitle,#shop,#carth2 {
+				text-align : center ;
+				font-weight : bold ;
+				font-family : impact ;
+				border-radius: 80px;
+				border-style: groove;
+				border-width : 5px;
+				border-color:orangered;
+				color : black ;
+				text-shadow: 2px 0 0 orangered, -2px 0 0 orangered, 0 2px 0 orangered, 0 -2px 0 orangered, 1px 1px orangered, -1px -1px 0 orangered, 1px -1px 0 orangered, -1px 1px 0 orangered;
+				}
+			.subtitle{
+					font-size : 40px;
+				}
+			.paddin{
+				margin-top:5%;
+			}
+			#shop , #carth2{
+				font-size : 50px;
+				color : black ;
+				background-color:black;
+			}
+			.cart_btn{
+				position:fixed;
+				top:12%;
+				right:2%;
+				background:linear-gradient(to right,red,orange);
+				background-size:100%;
+				border-color:orangered;
+				border-radius: 15px;
+				height:50px;
+				width:60px;
+				vertical-align:middle;
+				line-height:50px;
+				display:inline-block;
+			}
+			.pageditor{
+				width:100px;
+				height:50px;
+				border-color:orangered;
+				border-radius: 15px;
+				position:fixed;
+				background:linear-gradient(to right,red,blue);
+				background-size:100%;
+				top:88%;
+				right:1%;
+				color:white;
+				font-size:15px;
+			}
+			.sizebuttons{	
+				border-color:orangered;
+				height:30px;
+				width:20px;
+				vertical-align:middle;
+				line-height:25px;
+				display:inline-block;
+			}
+			#fonttext{
+				color:white;
+				position:fixed;
+				top:80%;
+				left:2%;
+				font-size:14px;
+			}
+			.decbuttons{
+				position:fixed;
+				background:linear-gradient(to right,red,orange);
+				background-size:100%;
+				top:85%;
+				left:2%;
+				color:white;
+				font-size:25px;
+			}
+			.incbuttons{
+				position:fixed;
+				background:linear-gradient(to right,red,orange);
+				background-size:100%;
+				top:91%;
+				left:2%;
+				color:white;
+				font-size:25px;
+			}
+			.cartbtn{
+				height:50px;
+				width:60px;
+			}
+			.top_btn{
+				position:fixed;
+				top:12%;
+				left:2%;
+				background:linear-gradient(to right,red,orange);
+				background-size:100%;
+				border:2px solid orangered;
+				border-radius: 15px;
+				height:50px;
+				width:60px;
+				text-align:center;
+				vertical-align:middle;
+				line-height:50px;
+				display:inline-block;
+			}
+			.backtotop{
+				color:black;
+				font-family:impact;
+				font-size:30px;
+				padding: 2px 5px;
+				overflow:hidden;
+				transition: 1s all ease;
+				text-decoration:none;
+			}
+			.buttons {
+				margin:30px 110px 30px 110px;
+			}
+			.products_buttons{
+				position:relative;
+				color:white;
+				font-family:impact;
+				font-size:20px;
+				margin:30px 0;
+				border:2px solid orangered;
+				padding: 14px 60px;
+				overflow:hidden;
+				transition: 1s all ease;
+				text-decoration:none;
+				}
+			.products_buttons::before , .backtotop::before{
+				background:linear-gradient(to right,red,orange);
+				content:"";
+				position:absolute;
+				top:50%;
+				left:50%;
+				transform: translate(-50%,-50%);
+				z-index:-1;	
+				transition: 0.5s all ease;
+				width:100%;
+				height:0;
+			}
+			.backtotop::before{
+				background:linear-gradient(to right,red,blue);
+				border:2px solid orangered;
+				border-radius: 15px;
+			}
+			.products_buttons:hover::before , .backtotop:hover::before{
+				height:100%;
+			}
+			.slideshow{
+				border:2px solid orangered;
+				width:1120px;
+				height:450px;
+				margin:margin:30px 110px 100px 110px;;
+				background:url(slide1.jpg);
+				background-size:cover;
+				margin:0px 100px 0px 100px;
+				animation:slide 30s infinite;
+			}
+			@keyframes slide{
+				20%{
+					background:url(slide2.jpg);
+					background-size:cover;
+					}
+				40%{
+					background:url(slide3.jpg);
+					background-size:cover;
+					}
+				60%{
+					background:url(slide4.jpg);
+					background-size:cover;
+					}
+				80%{
+					background:url(slide5.jpg);
+					background-size:cover;
+					}
+				100%{
+					background:url(slide1.jpg);
+					background-size:cover;
+					}
+				
+			}
+			.overlay {
+			  position: relative;
+			  top: 0;
+			  left: 0;
+			  width: 100%;
+			  height: 100%;
+			  background: rgba(0, 0, 0, 0);
+			  transition: background 0.5s ease;
+			}
+			.container:hover .overlay {
+			  display: block;
+			  background: rgba(0, 0, 0, .3);
+			}
+			.addtocart {
+			  position: relative;
+			  width: 500px;
+			  left:0;
+			  top: -150px;
+			  text-align: center;
+			  opacity: 0;
+			  transition: opacity .35s ease;
+			}
+
+			.addtocart {
+			  width: 200px;
+			  padding: 12px 48px;
+			  text-align: center;
+			  color: white;
+			  border: solid 2px white;
+			  z-index: 1;
+			  background:linear-gradient(to right,red,orange);
+			}
+			.footballimg:hover , .basketballimg:hover , .rugbyimg:hover , .f1img:hover {
+				webkit-filter:blur(4px);
+				filter:blur(4px);
+			}
+			.container:hover .addtocart {
+			  opacity: 1;
+			}
+			body {
+				background-image: url("ftt.jpg");
+			}
+			.cart {
+				display: none;
+				position: fixed;
+				z-index: 1;
+				padding-top: 100px;
+				width: 100%;
+				height: 100%;
+				top:0;
+				left:0;
+				overflow: auto;
+			}
+			.cartcontent {
+				position: relative;
+				background-color: orangered;
+				margin: auto;
+				padding: 0;
+				border: 2px solid black;
+				border-radius:15px;
+				width: 100%;
+			}
+			.closebtn {
+				color: white;
+				float: right;
+				font-size: 35px;
+				background:linear-gradient(to right,red,blue);
+				width:40px;
+				height:40px;
+				border: 2px solid black;
+				border-radius:10px;
+			}
+			.cartheader {
+				padding: 2px 16px;
+				background-color: red;
+				color: white;
+				border-top: 2px solid black;
+				border-radius:15px;
+			}
+			.cartbody {padding: 2px 16px;}
+			#addcartelements{
+				font-size : 20px;
+				font-weight : bold ;
+				text-align : center;
+				color : white ;
+			}
+			.container_forms {
+				width: 500px;
+				clear: both;
+				width: 50%;
+				margin: 0 auto;
+				padding: 20px;
+				color:white;
+				font-size:20px;
+				font-family:arial:;
+			}
+
+			.container_forms input {
+				width: 100%;
+				clear: both;
+			}
+			.removebtn , #submit_btn {
+				font-size: 20px;
+				color: white;
+				font-size: 20px;
+				background:linear-gradient(to right,red,blue);
+				border: 2px solid black;
+				border-radius:20px;
+				width: 30%;
+			}
+			.text{
+				font-size:medium;
+			}			
+			

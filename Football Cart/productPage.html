@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel = "stylesheet"
+		href = "productPageStyleSheet.css"</link>
+		<link rel = "stylesheet"
+		href = "mainStyleSheet.css"</link>
+		<title>Product page</title>
+	</head>
+	<body id="content">
+		
+		<div class="buttons">
+			<a href="#Footballproducts" class="products_buttons" class="text">Football Products</a>
+			<a href="#Basketballproducts" class="products_buttons" class="text">Basketball Products</a>
+			<a href="#Rugbyproducts" class="products_buttons" class="text">Rugby Products</a>
+			<a href="#F1products" class="products_buttons" class="text">Formula 1 Products</a>
+		</div>
+		<div class="slideshow"></div>
+		<div class="top_btn">
+			<a href="#top" class="backtotop">Top</a>
+		</div>
+		<div class="cart_btn">
+			<input type="image" src="Images\cart.png" class="cartbtn" onclick="opencart()"></a>
+		</div>
+		<h2 id="Footballproducts" class="subtitle" class="text">Football Products</h2>
+		<div class="footballbg">
+		
+			<!---First row Football products--->
+			<div class="row">
+				<div class="column" class = "footballproduct" id="football-1">
+					<div class="container">
+						<img class=footballimg id="interts" src="Images\interts.jpg">
+						<div class="overlay"></div>
+						<input type = "button" class="addtocart" name="1" value="Add to cart" onclick="add_prod_to_cart(this.name)">
+						<div class="description">
+							<figcaption id="1" class="70" class="text"> FC Inter Jersey <div class="price">&euro;70</div> </figcaption>
+						</div>
+					</div>
+				</div>
+
+
+				<div class="column" class = "footballproduct" id="football-2">
+					<div class="container">
+						<img class=footballimg id="arsenalts" src="Images\arsenalts.jpg">
+						<div class="overlay"></div>
+						<input type = "button" class="addtocart" name="2" value="Add to cart" onclick="add_prod_to_cart(this.name)">
+						<div class="description">
+							<figcaption id="2" class="70" class="text"> FC Arsenal Jersey <div class="price">&euro;70</div> </figcaption>
+						</div>
+					</div>
+				</div>
+
+
+				<div class="column" class = "footballproduct" id="football-3">
+					<div class="container">
+						<img class=footballimg id="barcats" src="Images\barcats.jpg">
+						<div class="overlay"></div>
+						<input type = "button" class="addtocart" name="3" value="Add to cart" onclick="add_prod_to_cart(this.name)">
+						<div class="description">
+							<figcaption id="3" class="70" class="text"> FC Barcelona Jersey <div class="price">&euro;70</div> </figcaption>
+						</div>
+					</div>
+				</div>
+			</div>
+		
+			<!---Second row Football products--->
+			<div class="row">
+				<div class="column" class = "footballproduct" id="football-4">
+					<div class="container">
+						<img class=footballimg id="foot-ball" src="Images\foot-ball.jpg">
+						<div class="overlay"></div>
+						<input type = "button" class="addtocart" name="4" value="Add to cart" onclick="add_prod_to_cart(this.name)">
+						<div class="description">
+							<figcaption id="4" class="30" class="text"> Nike Football <div class="price">&euro;30</div> </figcaption>
+						</div>
+					</div>
+				</div>
+		
+				
+
+
+				<div class="column" class = "footballproduct" id="football-5" >
+					<div class="container">
+						<img class=footballimg id="nikeshoes" src="Images\nikeshoes.jpg">
+						<div class="overlay"></div>
+						<input type = "button" class="addtocart" name="5" value="Add to cart" onclick="add_prod_to_cart(this.name)">			
+						<div class="description">
+							<figcaption id="5" class="120" class="text"> Nike Football Boots <div class="price">&euro;120</div> </figcaption>
+						</div>
+					</div>
+				</div>
+
+
+				<div class="column" class = "footballproduct" id="football-6">
+					<div class="container">
+						<img class=footballimg id="shorts" src="Images\shorts.jpg" alt="white">
+						<div class="overlay"></div>
+						<input type = "button" class="addtocart" name="6" value="Add to cart" onclick="add_prod_to_cart(this.name)">
+						<div class="description">
+							<figcaption  id="6" class="30" class="text"> Adidas Shorts <div class="price">&euro;30</div> </figcaption>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<h2 id="Basketballproducts" class="subtitle" class="text">Basketball Products</h2>
+		
+		<div class="basketballbg">
+		
+			<!---First row basketball products--->
+			<div class="row">
+				<div class="column" class = "basketballproduct" id="basketball-1">
+					<div class="container">
+						<img class=basketballimg id="lakersts" src="Images\lakersts.jpg">
+						<div class="overlay"></div>
+						<input type = "button" class="addtocart" name="7" value="Add to cart" onclick="add_prod_to_cart(this.name)">	
+						<div class="description">
+							<figcaption id="7" class="70" class="text"> Los Angeles Lakers Jersey <div class="price">&euro;70</div> </figcaption>
+						</div>
+					</div>
+				</div>
+
+
+				<div class="column" class = "basketballproduct" id="basketball-2">
+					<div class="container">
+						<img class=basketballimg id="chicagobullsts" src="Images\chicagobullsts.jpg">
+						<div class="overlay"></div>
+						<input type = "button" class="addtocart" name="8" value="Add to cart" onclick="add_prod_to_cart(this.name)">				
+						<div class="description">
+							<figcaption  id="8" class="70" class="text"> Chicago Bulls Jersey <div class="price">&euro;70</div> </figcaption>
+						</div>
+					</div>
+				</div>
+
+
+				<div class="column" class = "basketballproduct" id="basketball-3">
+					<div class="container">
+						<img class=basketballimg id="clevelandts" src="Images\clevelandts.jpg">
+						<div class="overlay"></div>
+						<input type = "button" class="addtocart" name="9" value="Add to cart" onclick="add_prod_to_cart(this.name)">
+						<div class="description">
+							<figcaption  id="9" class="70" class="text"> Cleveland Cavaliers Jersey <div class="price">&euro;70</div> </figcaption>
+						</div>
+					</div>
+				</div>
+			</div>
+		
+			<!---Second row basketball products--->
+			<div class="row">
+				<div class="column" class = "basketballproduct" id="basketball-4">
+					<div class="container">
+						<img class=basketballimg id="houstonrocketsts" src="Images\houstonrocketsts.jpg">
+						<div class="overlay"></div>
+						<input type = "button" class="addtocart" name="10" value="Add to cart" onclick="add_prod_to_cart(this.name)">			
+						<div class="description">
+							<figcaption  id="10" class="70" class="text"> Houston Rockets Jersey <div class="price">&euro;70</div> </figcaption>
+						</div>
+					</div>
+				</div>
+
+				<div class="column" class = "basketballproduct" id="basketball-5" >
+					<div class="container">
+						<img class=basketballimg id="jordanshoes" src="Images\jordanshoes.jpg">
+						<div class="overlay"></div>
+						<input type = "button" class="addtocart" name="11" value="Add to cart" onclick="add_prod_to_cart(this.name)">			
+						<div class="description">
+							<figcaption  id="11" class="120" class="text"> Jordan Basketball Shoes <div class="price">&euro;120</div> </figcaption>
+						</div>
+					</div>
+				</div>
+
+
+				<div class="column" class = "basketballproduct" id="basketball-6">
+					<div class="container">
+						<img class=basketballimg id="basket-ball" src="Images\basket-ball.jpg" alt="white">
+						<div class="overlay"></div>
+						<input type = "button" class="addtocart" name="12" value="Add to cart" onclick="add_prod_to_cart(this.name)">				
+						<div class="description">
+							<figcaption  id="12" class="30" class="text"> Spalding Basketball <div class="price">&euro;30</div> </figcaption>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<h2 id="Rugbyproducts" class="subtitle" class="text">Rugby Products</h2>
+		
+		<div class="rugbybg">
+		
+			<!---First row rugby products--->
+			<div class="row">
+				<div class="column" class = "rugbyproduct" id="rugby-1">
+					<div class="container">
+						<img class=rugbyimg id="allblacksts" src="Images\allblacksts.jpg">
+						<div class="overlay"></div>
+						<input type = "button" class="addtocart" name="13" value="Add to cart" onclick="add_prod_to_cart(this.name)">
+						<div class="description">
+							<figcaption  id="13" class="70" class="text"> All Blacks Jersey <div class="price">&euro;70</div> </figcaption>
+						</div>
+					</div>
+				</div>
+
+				<div class="column" class = "rugbyproduct" id="rugby-2">
+					<div class="container">
+						<img class=rugbyimg id="englandts" src="Images\englandts.jpg">
+						<div class="overlay"></div>
+						<input type = "button" class="addtocart" name="14" value="Add to cart" onclick="add_prod_to_cart(this.name)">
+						<div class="description">
+							<figcaption  id="14" class="70" class="text"> England National Jersey <div class="price">&euro;70</div> </figcaption>
+						</div>
+					</div>
+				</div>
+
+				<div class="column" class = "rugbyproduct" id="rugby-3">
+					<div class="container">
+						<img class=rugbyimg id="lionsts" src="Images\lionsts.jpg">
+						<div class="overlay"></div>
+						<input type = "button" class="addtocart" name="15" value="Add to cart" onclick="add_prod_to_cart(this.name)">			
+						<div class="description">
+							<figcaption  id="15" class="70" class="text"> Lions Jersey <div class="price">&euro;70</div> </figcaption>
+						</div>
+				</div>
+			</div>
+			</div>
+		
+			<!---Second row rugby products--->
+			<div class="row">
+				<div class="column" class = "rugbyproduct" id="rugby-4">
+					<div class="container">
+						<img class=rugbyimg id="hurricanests" src="Images\hurricanests.jpg">
+						<div class="overlay"></div>
+						<input type = "button" class="addtocart" name="16" value="Add to cart" onclick="add_prod_to_cart(this.name)">	
+						<div class="description">
+						<figcaption  id="16" class="70" class="text"> Hurricanes Jersey <div class="price">&euro;70</div> </figcaption>
+						</div>
+					</div>
+				</div>
+		
+				
+
+
+				<div class="column" class = "rugbyproduct" id="rugby-5" >
+					<div class="container">
+						<img class=rugbyimg id="rugbyshoes" src="Images\rugbyshoes.jpg">
+						<div class="overlay"></div>
+						<input type = "button" class="addtocart" name="17" value="Add to cart" onclick="add_prod_to_cart(this.name)">			
+						<div class="description">
+							<figcaption id="17" class="120" class="text"> Nike Rugby Shoes <div class="price">&euro;120</div> </figcaption>
+						</div>
+					</div>
+				</div>
+
+				<div class="column" class = "rugbyproduct" id="rugby-6">
+					<div class="container">
+						<img class=rugbyimg id="rugby-ball" src="Images\rugbyball.jpg" alt="white">
+						<div class="overlay"></div>
+						<input type = "button" class="addtocart" name="18" value="Add to cart" onclick="add_prod_to_cart(this.name)">		
+						<div class="description">
+							<figcaption id="18" class="30" class="text"> Offload Rugby ball <div class="price">&euro;30</div> </figcaption>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<h2 id="F1products" class="subtitle" class="text">F1 Products</h2>
+		
+		<div class="f1bg">
+		
+			<!---First row f1 products--->
+			<div class="row">
+				<div class="column" class = "f1product" id="f1-1">
+					<div class="container">
+						<img class=f1img id="ferrarits" src="Images\ferrari_tshirt.jpg">
+						<div class="overlay"></div>
+						<input type = "button" class="addtocart" name="19" value="Add to cart" onclick="add_prod_to_cart(this.name)">			
+						<div class="description">
+							<figcaption  id="19" class="60" class="text"> Ferrari T-shirt <div class="price">&euro;60</div> </figcaption>
+						</div>
+					</div>
+				</div>
+
+				<div class="column" class = "f1product" id="f1-2">
+					<div class="container">
+						<img class=f1img id="mercedests" src="Images\mercedes_tshirt.jpg">
+						<div class="overlay"></div>
+						<input type = "button" class="addtocart" name="20" value="Add to cart" onclick="add_prod_to_cart(this.name)">
+						<div class="description">
+							<figcaption id="20" class="70" class="text"> Mercedes T-shirt <div class="price">&euro;70</div> </figcaption>
+						</div>
+					</div>
+				</div>
+
+
+				<div class="column" class = "f1product" id="f1-3">
+					<div class="container">
+						<img class=f1img id="f1mug" src="Images\f1mug.jpg">
+						<div class="overlay"></div>
+						<input type = "button" class="addtocart" name="21" value="Add to cart" onclick="add_prod_to_cart(this.name)">
+						<div class="description">
+							<figcaption id="21" class="20" class="text"> Mercedes AMG Mug <div class="price">&euro;20</div> </figcaption>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<!-- Cart Box -->
+		<div id="CartBox" class="cart">
+			<div class="cartcontent">
+				<div class="cartheader">
+					<button class="closebtn" onclick="closecart()" class="text">&times;</button>
+					<h2 id="carth2"  class="text">Shopping Cart</h2>
+				</div>
+				<div class="cartbody">
+					<p id="addcartelements"></p>
+					<p id="cartfullprice"></p>
+					<button class="removebtn" onclick="removefromcart()" class="text">Remove Product</button><br/><br/><br/> 
+					<div class="container_forms">
+						<form name="validationform" onsubmit="return validation()"  class="text">  
+							Name: <input type="text" name="name"><br/><br/>  
+							Email: <input type="text" name="email"><br/><br/>
+							Telephone number: <input type="text" name="number"><br/><br/>
+							Address: <input type="text" name="address"><br/><br/>
+							Credit Card: <input type="text" name="credit_card"><br/> <br/> 
+							Password:<input type="password" name="password"><br/> <br/> 
+							<input type="submit" id="submit_btn" value="submit">  
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<script>
+			var cart_elements=[];
+			var cart_prices=[];
+			var totalprice=0;
+			function openSidePanel() {
+				document.getElementById("rightSidePanel").style.width = "250px";
+			}
+			
+			function closeSidePanel() {
+				document.getElementById("rightSidePanel").style.width = "0";
+			}
+			<!--Function for add cart button-->
+			function add_prod_to_cart(clicked_name){
+				for (i = 0; i <= 21; i++) {
+				<!--Checking which button  has been clicked through id's , id's given numerically from 1 to 21-->
+					if (clicked_name == i) {
+					<!--Alert with product name and price and number of items for each product-->
+						var num = prompt("How many of" + document.getElementById(i).textContent + " would you like? (Enter number)");
+						if (num != null || num != "" || num != 0) {
+							for(var n=0 ; n<num ; n++){
+								<!--Adding elements to cart_elements array-->
+								cart_elements.push(document.getElementById(i).textContent); 
+								<!--Adding prices to cart_prices-->
+								cart_prices.push(document.getElementById(i).className); 
+								}
+						}
+					}
+				}
+			}
+
+			function opencart(){
+				<!--Adding elements to cart box-->
+				var p=document.getElementById("addcartelements");
+				var price=document.getElementById("cartfullprice");
+				p.innerHTML="";
+				price.innerHTML="";
+				p.textContent+="- - - - - - - - - -";
+				var length=cart_elements.length;
+				for (var i = 0; i < length; i++) {
+						var temp=cart_elements[i];
+						p.textContent+=(i+1)+":";
+						p.textContent+=temp;
+						p.textContent+="- - - - - - - - - -";
+				}
+				<!--Adding prices-->
+				totalprice=0;
+				for(var i in cart_prices) { totalprice += parseInt(cart_prices[i]); }
+				p.textContent+="Total Price is "+totalprice+" Euros";
+				
+
+				document.getElementById("CartBox").style.display = "block";
+			}
+			function closecart(){
+				document.getElementById("CartBox").style.display = "none";
+			}
+			function removefromcart(){
+				var product = prompt("Enter the number of the product you want to remove:");
+				if(cart_elements.includes(cart_elements[product-1])){
+					cart_elements.splice(product-1,1);
+					cart_prices.splice(product-1,1);
+					closecart();
+					opencart();
+				}
+			}
+			function end_validation(){
+					alert("Dear "+document.validationform.name.value+", you have ordered "+ cart_elements + " and your total bill is :" + totalprice + "euros");
+			}
+			<!--Form validation with js , checking if every input tag has been filled appropriately-->
+			function validation(){
+				var name=document.validationform.name.value;  
+				var email=document.validationform.email.value;
+				var address=document.validationform.address.value;
+				var number=document.validationform.number.value;
+				var credit_card=document.validationform.credit_card.value;
+				var password=document.validationform.password.value;
+				if (name==null || name==""){
+					alert("Name cannot be blank!");  
+					return false;  
+				}
+				if(email==null || email==""){  
+					alert("Email cannot be blank!");  
+					return false;  
+				}
+				if(address==null || address==""){  
+					alert("Address cannot be blank!");  
+					return false;  
+				}
+				if(number=null || number==""){  
+					alert("Telephone number cannot be blank!");  
+					return false;  
+				}
+				if(credit_card==null || credit_card==""){  
+					alert("Credit card number cannot be blank!");  
+					return false;  
+				}
+				if(password.length<10){  
+					alert("Password must have at least 10 characters!");  
+					return false;  
+				}
+				if(cart_elements.length<1){
+					alert("You have not added any product to the cart!");  
+					return false;  
+				}
+				end_validation();
+			}
+			
+		</script>
+		
+	</body>
+</html>
